@@ -1,14 +1,20 @@
 # MAGNUM
-A Modality-Agnostic Multimodal Modular Architecture
+
+This repo contains the official implementation of the paper 
+"[A Modular End-to-End Multimodal Learning Method for Structured and Unstructured Data](https://arxiv.org/abs/2403.04866)", 
+which introduces MAGNUM.
+
+MAGNUM is a modality-agnostic multimodal architecture designed to natively process any type of structured and unstructured data. 
+The model architecture is modular, allowing for easy integration of specialized unimodal modules.
 
 ## Installation
 
-1. Clone the repository
-2. Install the requirements file with `pip install -r requirements.txt`
+1. Clone the repository.
+2. Install the requirements with ```pip install -r requirements.txt```.
 
 ## Basic usage
 
-All the relevant code is stored into the **models** module.
+All the relevant code is located in the `models` module.
 
 ```python
 import torch.nn as nn
