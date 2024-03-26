@@ -1,5 +1,7 @@
 import torch
 import torch.nn as nn
+import torch_cluster as tc
+import torch_geometric.nn as gnn
 from models.utils import get_batched_data
 
 class GraphPooling(nn.Module):
