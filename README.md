@@ -68,3 +68,14 @@ top_level_module = TopLevelModule(
 ```python
 magnum = Magnum(bottom_level_module, top_level_module)
 ```
+
+## Citation
+
+```bibtex
+@article{alessandro2024modular,
+  title={A Modular End-to-End Multimodal Learning Method for Structured and Unstructured Data},
+  author={Alessandro, Marco D and Calabrés, Enrique and Elkano, Mikel},
+  journal={arXiv preprint arXiv:2403.04866},
+  year={2024}
+}
+```
